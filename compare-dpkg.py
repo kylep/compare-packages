@@ -33,7 +33,7 @@ for package in right:
     if package not in packages:
         packages.append(package)
 
-pad_length = max(20, max(len(file1), len(file2)))+4
+pad_length = max(30, max(len(file1), len(file2)))+4
 
 # print header
 white = "\033[1;37m"
